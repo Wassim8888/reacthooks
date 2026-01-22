@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+// src/movies.js
+export const moviesData = [
+  {
+    title: "Inception",
+    description: "A mind-bending thriller by Christopher Nolan.",
+    posterURL: "https://via.placeholder.com/150?text=Inception",
+    rating: 5,
+    trailerURL: "https://www.youtube.com/embed/YoHD9XEInc0",
+  },
+  {
+    title: "The Matrix",
+    description: "A computer hacker learns about the true nature of reality.",
+    posterURL: "https://via.placeholder.com/150?text=Matrix",
+    rating: 4,
+    trailerURL: "https://www.youtube.com/embed/vKQi3bBA1y8",
+  },
+  {
+    title: "Interstellar",
+    description: "A journey beyond the stars to save humanity.",
+    posterURL: "https://via.placeholder.com/150?text=Interstellar",
+    rating: 5,
+    trailerURL: "https://www.youtube.com/embed/zSWdZVtXT7E",
+  },
+];
